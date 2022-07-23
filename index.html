@@ -7,9 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Евклид</title>
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+
+  <!-- fonts -->
+  <link rel="preload" href="fonts/MontserratBold.woff2" as="font">
+  <link rel="preload" href="fonts/MontserratExtraBold.woff2" as="font">
+  <link rel="preload" href="fonts/MontserratRegular.woff2" as="font">
+  <link rel="preload" href="fonts/MontserratSemiBold.woff2" as="font">
+
+  <!-- css -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  
+  <!-- js -->
+  <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script defer src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script defer src="js/main.js"></script>
 </head>
 
 <body>
@@ -61,7 +75,7 @@
 
         <div class="form-container">
           <button class="form-btn__open" aria-label="Поиск по всему сайту"><svg width="24" height="24"
-              viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="7.56126" height="1.89031"
                 transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#333333" />
               <path
@@ -74,7 +88,7 @@
 
             <input class="form__input" type="text" placeholder="Что будем искать?">
 
-            <button class="form-btn__submit" aria-label="Найти на сайте"><svg width="24" height="24" viewBox="0 0 24 24"
+            <button class="form-btn__submit" aria-label="Найти на сайте"><svg width="24" height="24" viewbox="0 0 24 24"
                 fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="7.56126" height="1.89031"
                   transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#FF9900" />
@@ -85,7 +99,7 @@
             </button>
 
             <button class="form-btn-closed" type="button" aria-label="Закрыть поиск"><svg width="24" height="24"
-                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="8.95386" y="7.30435" width="11.6645" height="2.33291" transform="rotate(45 8.95386 7.30435)"
                   fill="#999999" />
                 <rect x="7.30432" y="15.5524" width="11.6645" height="2.33291" transform="rotate(-45 7.30432 15.5524)"
@@ -535,20 +549,6 @@
       </div>
     </div>
   </footer>
-
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="js/slider.js"></script>
-
-  <script src="js/search.js"></script>
-
-  <script src="js/tabs.js"></script>
-
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="js/accordion.js"></script>
-
-  <script src="js/hamdurger.js"></script>
-
 </body>
 
 </html>
