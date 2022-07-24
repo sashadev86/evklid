@@ -2,6 +2,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('../fonts/MontserratRegular.woff2') format('woff2'),
        url('../fonts/MontserratRegular.woff') format('woff');
 }
@@ -10,6 +11,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 800;
+  font-display: swap;
   src: url('../fonts/MontserratExtraBold.woff2') format('woff2'),
        url('../fonts/MontserratExtraBold.woff') format('woff');
 }
@@ -18,6 +20,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url('../fonts/MontserratSemiBold.woff2') format('woff2'),
        url('../fonts/MontserratSemiBold.woff') format('woff');
 }
@@ -26,6 +29,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('../fonts/MontserratBold.woff2') format('woff2'),
        url('../fonts/MontserratBold.woff') format('woff');
 }
@@ -387,21 +391,21 @@ ul {
 }
 
 .slide1 {
-  background-image: url('../img/low-angle-photo-of-balconies-2462015\ 1.jpg');
+  background-image: url('../img/slide1.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .slide2 {
-  background-image: url('../img/brown-and-blue-glass-building-2093076\ 2.jpg');
+  background-image: url('../img/slide2.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .slide3 {
-  background-image: url('../img/apartment-apartment-building-architecture-building-323705\ 2.jpg');
+  background-image: url('../img/slide3.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -456,7 +460,7 @@ ul {
   flex: 1 1 48%;
   width: 100%;
   min-height: 622px;
-  background-image: url('../img/Rectangle\ 2.jpg');
+  background-image: url('../img/about.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -628,7 +632,7 @@ ul {
   bottom: 0;
   right: 0;
   top: 10px;
-  background-image: url('../img/Rectangle\ 18.jpg');
+  background-image: url('../img/workingTab1.webp');
   background-size: cover;
   background-position: center center;
 }
@@ -640,7 +644,7 @@ ul {
   bottom: 0;
   right: 0;
   top: 10px;
-  background-image: url('../img/workingTab2.jpg');
+  background-image: url('../img/workingTab2.webp');
   background-size: cover;
   background-position: center center;
 }
@@ -652,7 +656,7 @@ ul {
   bottom: 0;
   right: 0;
   top: 10px;
-  background-image: url('../img/workingTab3.jpg');
+  background-image: url('../img/workingTab3.webp');
   background-size: cover;
   background-position: center center;
 }
@@ -664,7 +668,7 @@ ul {
   bottom: 0;
   right: 0;
   top: 10px;
-  background-image: url('../img/workingTab4.jpg');
+  background-image: url('../img/workingTab4.webp');
   background-size: cover;
   background-position: center center;
 }
@@ -1217,7 +1221,7 @@ ul {
   }
 
   .slide1 {
-    background-image: url('../img/herobackground1024.jpg');
+    background-image: url('../img/herobackground1024.webp');
   }
 
   .hero__title {
@@ -1259,7 +1263,7 @@ ul {
 
   .about__wrap-left {
     min-height: 640px;
-    background-image: url('../img/about1024.jpg');
+    background-image: url('../img/about1024.webp');
   }
 
   .about__wrap-text {
@@ -1294,7 +1298,7 @@ ul {
   .working__content::before {
     width: calc(47% + 3px);
     top: 11.8px;
-    background-image: url('../img/working1024.jpg');
+    background-image: url('../img/working1024.webp');
   }
 
 /* questions */
@@ -1388,7 +1392,7 @@ ul {
   }
 
   .slide1 {
-    background-image: url('../img/herobackground768.jpg');
+    background-image: url('../img/herobackground768.webp');
   }
 
   .hero__title {
@@ -1433,7 +1437,7 @@ ul {
 
   .about__wrap-left {
     min-height: 650px;
-    background-image: url('../img/about768.jpg');
+    background-image: url('../img/about768.webp');
   }
 
   .about__wrap-left-content {
@@ -1482,28 +1486,28 @@ ul {
     width: 100%;
     bottom: 515px;
     top: 0;
-    background-image: url('../img/working768.jpg');
+    background-image: url('../img/working768.webp');
   }
 
   .working__content.tab-2::before {
     width: 100%;
     bottom: 419px;
     top: 0;
-    background-image: url('../img/workingTab2.jpg');
+    background-image: url('../img/workingTab2.webp');
   }
 
   .working__content.tab-3::before {
     width: 100%;
     bottom: 515px;
     top: 0;
-    background-image: url('../img/workingTab3.jpg');
+    background-image: url('../img/workingTab3.webp');
   }
 
   .working__content.tab-4::before {
     width: 100%;
     bottom: 419px;
     top: 0;
-    background-image: url('../img/workingTab4.jpg');
+    background-image: url('../img/workingTab4.webp');
   }
 
   .working__content-text {
@@ -1672,7 +1676,7 @@ ul {
   }
 
   .slide1 {
-    background-image: url('../img/herobackground320.jpg');
+    background-image: url('../img/herobackground320.webp');
   }
 
   .hero__title {
@@ -1724,7 +1728,7 @@ ul {
   .about__wrap-left {
     min-width: 100%;
     min-height: 399px;
-    background-image: url('../img/about320.jpg');
+    background-image: url('../img/about320.webp');
     background-size: 100%;
   }
 
@@ -1813,22 +1817,22 @@ ul {
 
   .working__content.tab-1::before {
     bottom: 83.5%;
-    background-image: url('../img/working320.jpg');
+    background-image: url('../img/working320.webp');
   }
 
   .working__content.tab-2::before {
     bottom: 78.5%;
-    background-image: url('../img/workingTab2.jpg');
+    background-image: url('../img/workingTab2.webp');
   }
 
   .working__content.tab-3::before {
     bottom: 82.5%;
-    background-image: url('../img/workingTab3.jpg');
+    background-image: url('../img/workingTab3.webp');
   }
 
   .working__content.tab-4::before {
     bottom: 77.5%;
-    background-image: url('../img/workingTab4.jpg');
+    background-image: url('../img/workingTab4.webp');
   }
 
   .working__content-title {
