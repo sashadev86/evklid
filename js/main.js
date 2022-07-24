@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+  lazyload();
+
   // accordion start
   $( function() {
     $( ".accordion__list" ).accordion({

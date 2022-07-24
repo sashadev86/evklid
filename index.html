@@ -23,6 +23,7 @@
   <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script defer src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script defer src="js/lazyload.min.js"></script>
   <script defer src="js/main.js"></script>
 </head>
 
@@ -39,7 +40,7 @@
           </svg>
         </button>
 
-        <a href="#" class="header__logo-link"><img src="img/Logo.svg" class="header__logo-link-img"
+        <a href="#" class="header__logo-link"><img data-src="img/Logo.svg" class="header__logo-link-img lazyload"
             alt="Проектные решения Евклид">
         </a>
 
@@ -454,7 +455,7 @@
       <div class="footer__wrap">
         <div class="footer__info">
           <div class="footer__logo-wrap">
-            <a href="#" class="footer__logo-link"><img src="img/Logofooter.svg" class="footer__logo-link-img"
+            <a href="#" class="footer__logo-link"><img data-src="img/Logofooter.svg" class="footer__logo-link-img lazyload"
                 alt="Проектные решения Евклид"></a>
           </div>
 
